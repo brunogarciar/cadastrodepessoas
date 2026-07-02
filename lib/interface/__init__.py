@@ -1,14 +1,4 @@
-'''def leiaint(msg):
-    while True:
-        try:
-            n = int(input(msg))
-        except (ValueError, TypeError):
-            print('\033[31mERRO: por favor, digite um número válido! \033[m')
-        except (KeyboardInterrupt):
-            print('\033[31mUsuário preferiu não digitar o número! \033[m')
-            return 0
-        else:
-            return n'''
+
 def leiaint(msg):
     ok = False
     valor = 0
